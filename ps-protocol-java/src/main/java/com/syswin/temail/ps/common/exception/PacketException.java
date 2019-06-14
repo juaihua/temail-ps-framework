@@ -3,10 +3,6 @@ package com.syswin.temail.ps.common.exception;
 import com.syswin.temail.ps.common.entity.CDTPPacket;
 import lombok.Getter;
 
-/**
- * @author 姚华成
- * @date 2018-8-24
- */
 public class PacketException extends RuntimeException {
 
   @Getter

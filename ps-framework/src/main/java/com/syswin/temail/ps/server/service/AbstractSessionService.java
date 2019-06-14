@@ -16,10 +16,6 @@ import java.util.function.Function;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author 姚华成
- * @date 2018-9-19
- */
 @Slf4j
 public abstract class AbstractSessionService implements SessionService {
 
