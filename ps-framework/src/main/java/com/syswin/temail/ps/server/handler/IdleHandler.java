@@ -9,10 +9,6 @@ import io.netty.handler.timeout.IdleState;
 import io.netty.handler.timeout.IdleStateEvent;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author 姚华成
- * @date 2018-8-24
- */
 @Slf4j
 @Sharable
 public class IdleHandler extends SimpleUserEventChannelHandler<IdleStateEvent> {

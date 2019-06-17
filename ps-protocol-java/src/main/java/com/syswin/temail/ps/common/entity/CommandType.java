@@ -5,7 +5,6 @@ import lombok.Getter;
 
 @Getter
 public enum CommandType {
-  // TODO(姚华成) 具体内容需要再定义
   PING(1),
   PONG(2),
   LOGIN(101),

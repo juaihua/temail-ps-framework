@@ -4,10 +4,6 @@ import com.syswin.temail.ps.common.entity.CDTPProtoBuf.CDTPHeader.Builder;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-/**
- * @author 姚华成
- * @date 2018-8-29
- */
 @Data
 @AllArgsConstructor
 public final class CDTPHeader implements Cloneable {
