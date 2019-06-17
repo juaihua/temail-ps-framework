@@ -29,6 +29,6 @@ public enum CommandSpaceType {
         return value;
       }
     }
-    throw new PacketException("不支持的CommandSpace的编码：" + code);
+    throw new PacketException("Unsupported commandSpace code：" + code);
   }
 }

@@ -91,7 +91,7 @@ public class ChannelManagerOne2One implements ChannelManager {
       return en.getValue();
     }).collect(
         Collectors.toList());
-    log.info("Receiver:{}, deviceId2Channel:{}, after filetered by sender:{}, senderDeviceId:{} is : {}",
+    log.info("Receiver:{}, deviceId2Channel:{}, after filtered by sender:{}, senderDeviceId:{} is : {}",
         receiver, sampleStr(deviceId2Channel), sender, senderDeviceId, sampleStr(result));
 
     return result;

@@ -31,7 +31,7 @@ public enum CommandType {
         return commandType;
       }
     }
-    throw new PacketException("不支持的Command的编码：" + code);
+    throw new PacketException("Unsupported command code：" + code);
   }
 
 }
