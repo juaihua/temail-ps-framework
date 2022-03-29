@@ -34,6 +34,7 @@
     <module>ps-protocol-java</module>
     <module>ps-framework</module>
     <module>coverage-aggregate</module>
+      <module>ps-packet</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -62,6 +63,11 @@
       <dependency>
         <groupId>com.syswin.temail</groupId>
         <artifactId>ps-protocol-java</artifactId>
+        <version>1.2.15-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+        <groupId>com.syswin.temail</groupId>
+        <artifactId>ps-packet</artifactId>
         <version>1.2.15-SNAPSHOT</version>
       </dependency>
       <dependency>
